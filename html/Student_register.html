@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>stdLogin</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script type="text/javascript" src="js/Student_login.js"></script>
+	<style>
+		body
+		{
+			background-color: #B0AFAF;
+		}
+
+		input
+		{
+			width:250px;
+		}
+		small
+		{
+			color: ;
+		}
+		a
+		{
+			
+			text-decoration: none;
+		}
+		a:hover
+		{
+			color: red;
+			text-decoration: none;
+		}
+		p
+		{
+			color: #3F82D2;
+		}
+		.row
+		{
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		label
+		{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row" style="margin-top: 30px;margin-bottom: 30px;">
+			<div class="col-sm-4" >
+				<img src="../images/day.jpg" height="570px;" width="110%" style="background-image:cover;">
+			</div>	
+			<div class="col-sm-8" style="background-color: white;">
+				<label style="padding-top:30px; font-size: 50px; margin-bottom: 30px; font-style: bold; color: black;">Student Registration</label>
+				<form>
+				  <div class="row">
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-5">
+				  		 <label for="exampleInputEmail1">First Name</label>
+				    	 <input type="text" class="form-control" id="fname"placeholder="First Name">    
+				  	</div>
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-5">
+				  		<label for="exampleInputEmail1">Last Name</label>
+				    	 <input type="text" class="form-control" id="fname"placeholder="Last Name">
+				  	</div>
+				  </div>
+
+				  <div class="row">
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-5">
+				  		 <label for="exampleInputEmail1">PRN</label>
+				    	 <input type="text" class="form-control" id="fname"placeholder="PRN">    
+				  	</div>
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-5">
+				  		<label for="exampleInputEmail1">Branch</label>
+				    	<select class="custom-select">
+						  <option selected>Branch</option>
+						  <option value="1">IT</option>
+						  <option value="2">CSE</option>
+						  <option value="3">CIVIL</option>
+						  <option value="4">MECHANICAL</option>
+						  <option value="5">ELECTRICAL</option>
+						  <option value="6">ELECTRONICS</option>
+						</select>
+				  	</div>
+				  </div>
+
+
+				  <div class="row">
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-5">
+				  		 <label for="exampleInputEmail1">Current Year</label>
+				    	 <select class="custom-select">
+						  <option selected>Year</option>
+						  <option value="1">FY</option>
+						  <option value="2">SY</option>
+						  <option value="3">TY</option>
+						  <option value="4">B.Tech</option>
+						</select>   
+				  	</div>
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-5">
+				  		<label for="exampleInputEmail1">Date Of Birth</label>
+				    	<input type="date" data-date-inline-picker="true" />
+				  	</div>
+				  </div>
+
+				<div class="row">
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-5">
+				  		 <label for="exampleInputEmail1">Password</label>
+				    	 <input type="password" class="form-control" id="fname"placeholder="Password">    
+				  	</div>
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-5">
+				  		<label for="exampleInputEmail1">Confirm Password</label>
+				    	 <input type="password" class="form-control" id="fname"placeholder="Confirm Password">
+				  	</div>
+				  </div>
+
+				  <div class="row" style="margin-top: 50px;">
+				  	<div class="col-sm-1">
+				  	</div>
+				  	<div class="col-sm-3">
+				  		<button type="submit" class="btn btn-warning">Register</button>
+				  	</div>
+				  	<div class="col-sm-8 text-right">
+				  		Already have an account ?
+				  		<a href="../Student_login.html"> Login</a>
+				  </div>
+				</form>
+			</div>			
+		</div>
+	</div>
+</body>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

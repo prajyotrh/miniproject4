@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>connection</title>
+	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-storage.js"></script>
+	<script type="text/javascript" src="../js/upload.js"></script>
+</head>
+<body>
+
+
+	<input type="file" id="upfile">
+	<button id="upload" onclick="uploadf()">Upload</button>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDNsy8wR_DNzxt7J5fPS-AW_6XDReeq4jU",
+    authDomain: "finalproject-51616.firebaseapp.com",
+    databaseURL: "https://finalproject-51616.firebaseio.com",
+    projectId: "finalproject-51616",
+    storageBucket: "finalproject-51616.appspot.com",
+    messagingSenderId: "645157881498",
+    appId: "1:645157881498:web:382215ab2d8e03c3428123"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</body>
+</html>
